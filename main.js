@@ -36,3 +36,11 @@ if (num >= 20 or =< 50){
 function isInterger(num){
 
 }
+
+function fizzBuzz(num){
+
+}
+
+function isPrime(num){
+  
+}
