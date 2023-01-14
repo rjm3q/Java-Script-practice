@@ -4,6 +4,7 @@ function getBiggest(x,y){
 }
 
 function greeting(language) {
+// case and default allow for easy choices
   case "German":
     greeting = "guten Tag!";
   case "Mandarin":
@@ -11,16 +12,25 @@ function greeting(language) {
   case "Spanish":
     greeting ="Hola!";
   default ="Hello";
-
+need to pass thru 
 return greeting
 }
 
 function isTenOrFive(num){
-
+  // an if/else statement should do the trick
+if(num === 10 or 5){
+  return true;
+} else{
+  return false
+}
 }
 
 function isInRange(num){
-
+if (num >= 20 or =< 50){
+  return true;
+} else{
+  return false
+}
 }
 
 function isInterger(num){
